@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_13"
-               BuildableName = "Swifty3dCell"
+               BlueprintIdentifier = "OBJ_16"
+               BuildableName = "Swifty3dCell.framework"
                BlueprintName = "Swifty3dCell"
                ReferencedContainer = "container:Swifty3dCell.xcodeproj">
             </BuildableReference>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_24"
+               BuildableName = "Swifty3dCellTests.xctest"
+               BlueprintName = "Swifty3dCellTests"
+               ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -45,8 +55,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_13"
-            BuildableName = "Swifty3dCell"
+            BlueprintIdentifier = "OBJ_16"
+            BuildableName = "Swifty3dCell.framework"
             BlueprintName = "Swifty3dCell"
             ReferencedContainer = "container:Swifty3dCell.xcodeproj">
          </BuildableReference>
