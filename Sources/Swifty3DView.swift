@@ -9,8 +9,7 @@
 import Foundation
 import UIKit
 
-class Swifty3DView: UIView {
-    
+public class Swifty3DView: UIView {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
