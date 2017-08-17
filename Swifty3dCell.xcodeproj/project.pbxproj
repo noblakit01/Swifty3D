@@ -12,6 +12,8 @@
 		FD65603E1F459A8A00111951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD65603C1F459A8A00111951 /* Main.storyboard */; };
 		FD6560401F459A8A00111951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD65603F1F459A8A00111951 /* Assets.xcassets */; };
 		FD6560431F459A8A00111951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6560411F459A8A00111951 /* LaunchScreen.storyboard */; };
+		FD65604E1F459AE100111951 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
+		FD65604F1F459AE100111951 /* Swifty3dCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		OBJ_21 /* Swifty3dCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Swifty3dCell.swift */; };
 		OBJ_22 /* Swifty3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Swifty3DView.swift */; };
 		OBJ_29 /* Swifty3dCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3dCellTests.swift */; };
@@ -26,7 +28,28 @@
 			remoteGlobalIDString = OBJ_16;
 			remoteInfo = Swifty3dCell;
 		};
+		FD6560501F459AE100111951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_16;
+			remoteInfo = Swifty3dCell;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD6560521F459AE100111951 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FD65604F1F459AE100111951 /* Swifty3dCell.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3dCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD65604E1F459AE100111951 /* Swifty3dCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +164,12 @@
 				FD6560321F459A8A00111951 /* Sources */,
 				FD6560331F459A8A00111951 /* Frameworks */,
 				FD6560341F459A8A00111951 /* Resources */,
+				FD6560521F459AE100111951 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FD6560511F459AE100111951 /* PBXTargetDependency */,
 			);
 			name = Swifty3dCellDemo;
 			productName = Swifty3dCellDemo;
@@ -261,6 +287,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FD6560511F459AE100111951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_16 /* Swifty3dCell */;
+			targetProxy = FD6560501F459AE100111951 /* PBXContainerItemProxy */;
+		};
 		OBJ_32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_16 /* Swifty3dCell */;
@@ -291,6 +322,7 @@
 		FD6560451F459A8A00111951 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -341,6 +373,7 @@
 		FD6560461F459A8A00111951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
