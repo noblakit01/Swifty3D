@@ -11,7 +11,7 @@ import UIKit
 
 public class Swifty3DView: UIView {
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
         start3DAnimation()
@@ -19,7 +19,7 @@ public class Swifty3DView: UIView {
     
     var shadowFactor: CGFloat {
         get {
-            return 1.1
+            return 10.0
         }
     }
     

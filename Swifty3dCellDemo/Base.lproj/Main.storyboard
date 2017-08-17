@@ -24,13 +24,23 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="s1r-wN-fEd">
                                 <rect key="frame" x="80" y="260" width="215" height="167"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-iw-z7B" customClass="Swifty3DView" customModule="Swifty3dCell">
+                                <rect key="frame" x="67" y="93" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.14901960780000001" green="0.68235294120000001" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="XpC-hJ-5Gs"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="aAH-iw-z7B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="73" id="1en-AY-CUx"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s1r-wN-fEd" secondAttribute="bottom" constant="240" id="FLC-AJ-1Mh"/>
                             <constraint firstItem="s1r-wN-fEd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="HFo-7c-mhX"/>
+                            <constraint firstAttribute="trailing" secondItem="aAH-iw-z7B" secondAttribute="trailing" constant="68" id="VKf-Ky-uvX"/>
                             <constraint firstItem="s1r-wN-fEd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="240" id="d5C-Lk-xUq"/>
                             <constraint firstAttribute="trailing" secondItem="s1r-wN-fEd" secondAttribute="trailing" constant="80" id="e9A-NU-ikr"/>
+                            <constraint firstItem="aAH-iw-z7B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="67" id="tpd-eS-LEb"/>
                         </constraints>
                     </view>
                 </viewController>
