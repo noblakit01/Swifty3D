@@ -11,19 +11,22 @@ import UIKit
 
 class Swifty3DView: UIView {
     
-    var shadowFactor: Float {
+    var shadowFactor: CGFloat {
         get {
             return 1.1
         }
     }
     
+    var animationDuration: CFTimeInterval {
+        return 0.4
+    }
+    
     func start3DAnimation() {
-        
         let targetShadowOffset = CGSize(width: 0.0, height: bounds.size.height / shadowFactor)
         layer.removeAllAnimations()
         CATransaction.begin()
         CATransaction.setCompletionBlock({ () -> Void in
-            layer.shadowOffset = targetShadowOffset
+            self.layer.shadowOffset = targetShadowOffset
         })
         let shadowOffsetAnimation = CABasicAnimation(keyPath: "shadowOffset")
         shadowOffsetAnimation.toValue = NSValue(cgSize: targetShadowOffset)
