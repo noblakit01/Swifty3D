@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6560381F459A8A00111951 /* AppDelegate.swift */; };
+		FD65603B1F459A8A00111951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65603A1F459A8A00111951 /* ViewController.swift */; };
+		FD65603E1F459A8A00111951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD65603C1F459A8A00111951 /* Main.storyboard */; };
+		FD6560401F459A8A00111951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD65603F1F459A8A00111951 /* Assets.xcassets */; };
+		FD6560431F459A8A00111951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6560411F459A8A00111951 /* LaunchScreen.storyboard */; };
 		OBJ_21 /* Swifty3dCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Swifty3dCell.swift */; };
 		OBJ_22 /* Swifty3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Swifty3DView.swift */; };
 		OBJ_29 /* Swifty3dCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3dCellTests.swift */; };
@@ -24,6 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3dCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6560381F459A8A00111951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD65603A1F459A8A00111951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD65603D1F459A8A00111951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD65603F1F459A8A00111951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD6560421F459A8A00111951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD6560441F459A8A00111951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		OBJ_12 /* Swifty3dCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3dCellTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Swifty3dCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifty3dCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* Swifty3dCellTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swifty3dCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +45,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FD6560331F459A8A00111951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -51,6 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD6560371F459A8A00111951 /* Swifty3dCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD6560381F459A8A00111951 /* AppDelegate.swift */,
+				FD65603A1F459A8A00111951 /* ViewController.swift */,
+				FD65603C1F459A8A00111951 /* Main.storyboard */,
+				FD65603F1F459A8A00111951 /* Assets.xcassets */,
+				FD6560411F459A8A00111951 /* LaunchScreen.storyboard */,
+				FD6560441F459A8A00111951 /* Info.plist */,
+			);
+			path = Swifty3dCellDemo;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,19 +105,20 @@
 			children = (
 				OBJ_14 /* Swifty3dCell.framework */,
 				OBJ_15 /* Swifty3dCellTests.xctest */,
+				FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
+				FD6560371F459A8A00111951 /* Swifty3dCellDemo */,
 				OBJ_13 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -100,6 +133,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FD6560351F459A8A00111951 /* Swifty3dCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6560471F459A8A00111951 /* Build configuration list for PBXNativeTarget "Swifty3dCellDemo" */;
+			buildPhases = (
+				FD6560321F459A8A00111951 /* Sources */,
+				FD6560331F459A8A00111951 /* Frameworks */,
+				FD6560341F459A8A00111951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifty3dCellDemo;
+			productName = Swifty3dCellDemo;
+			productReference = FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		OBJ_16 /* Swifty3dCell */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "Swifty3dCell" */;
@@ -139,7 +189,14 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					FD6560351F459A8A00111951 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Swifty3dCell" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -147,19 +204,43 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				OBJ_16 /* Swifty3dCell */,
 				OBJ_24 /* Swifty3dCellTests */,
+				FD6560351F459A8A00111951 /* Swifty3dCellDemo */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		FD6560341F459A8A00111951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6560431F459A8A00111951 /* LaunchScreen.storyboard in Resources */,
+				FD6560401F459A8A00111951 /* Assets.xcassets in Resources */,
+				FD65603E1F459A8A00111951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FD6560321F459A8A00111951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD65603B1F459A8A00111951 /* ViewController.swift in Sources */,
+				FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -187,7 +268,122 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		FD65603C1F459A8A00111951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD65603D1F459A8A00111951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD6560411F459A8A00111951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6560421F459A8A00111951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		FD6560451F459A8A00111951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Swifty3dCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblakit01.Swifty3dCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD6560461F459A8A00111951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Swifty3dCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noblakit01.Swifty3dCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		OBJ_18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -311,6 +507,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FD6560471F459A8A00111951 /* Build configuration list for PBXNativeTarget "Swifty3dCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6560451F459A8A00111951 /* Debug */,
+				FD6560461F459A8A00111951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		OBJ_17 /* Build configuration list for PBXNativeTarget "Swifty3dCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
