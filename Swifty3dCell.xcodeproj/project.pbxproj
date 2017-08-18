@@ -14,6 +14,7 @@
 		FD6560431F459A8A00111951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6560411F459A8A00111951 /* LaunchScreen.storyboard */; };
 		FD65604E1F459AE100111951 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
 		FD65604F1F459AE100111951 /* Swifty3dCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD70327D1F46D962006F9319 /* FloatPointExt.swift */; };
 		OBJ_21 /* Swifty3dCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Swifty3dCell.swift */; };
 		OBJ_22 /* Swifty3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Swifty3DView.swift */; };
 		OBJ_29 /* Swifty3dCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3dCellTests.swift */; };
@@ -59,6 +60,7 @@
 		FD65603F1F459A8A00111951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD6560421F459A8A00111951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6560441F459A8A00111951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD70327D1F46D962006F9319 /* FloatPointExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatPointExt.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Swifty3dCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3dCellTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Swifty3dCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifty3dCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* Swifty3dCellTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swifty3dCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 			children = (
 				OBJ_8 /* Swifty3dCell.swift */,
 				OBJ_9 /* Swifty3DView.swift */,
+				FD70327D1F46D962006F9319 /* FloatPointExt.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -272,6 +275,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_21 /* Swifty3dCell.swift in Sources */,
+				FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */,
 				OBJ_22 /* Swifty3DView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +551,7 @@
 				FD6560461F459A8A00111951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		OBJ_17 /* Build configuration list for PBXNativeTarget "Swifty3dCell" */ = {
 			isa = XCConfigurationList;
