@@ -14,7 +14,7 @@ public class Swifty3DView: UIView {
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
-        start3DAnimation()
+        startMoving()
     }
     
     override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -23,6 +23,18 @@ public class Swifty3DView: UIView {
         if let location = touches.first?.location(in: self) {
             moving(location)
         }
+    }
+    
+    override public func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesCancelled(touches, with: event)
+        
+        stopMoving()
+    }
+    
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesEnded(touches, with: event)
+        
+        stopMoving()
     }
     
     var shadowFactor: CGFloat {
@@ -47,7 +59,7 @@ public class Swifty3DView: UIView {
     
     let maxTranslationY: CGFloat = 2.5
 
-    func start3DAnimation() {
+    func startMoving() {
         let targetShadowOffset = CGSize(width: 0.0, height: bounds.size.height / shadowFactor)
         layer.removeAllAnimations()
         CATransaction.begin()
@@ -101,5 +113,37 @@ public class Swifty3DView: UIView {
         UIView.animate(withDuration: 0.16, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: { () -> Void in
             
         }, completion: nil)
+    }
+    
+    func stopMoving() {
+        let targetShadowOffset = CGSize(width: 0.0, height: shadowFactor / 3)
+        let targetScaleTransform = CATransform3DMakeScale(1.0, 1.0, 1.0)
+        
+        CATransaction.begin()
+        CATransaction.setCompletionBlock({ () -> Void in
+            self.layer.transform = targetScaleTransform
+            self.layer.shadowOffset = targetShadowOffset
+        })
+        let shadowOffsetAnimation = CABasicAnimation(keyPath: "shadowOffset")
+        shadowOffsetAnimation.toValue = NSValue(cgSize: targetShadowOffset)
+        shadowOffsetAnimation.duration = animationDuration
+        shadowOffsetAnimation.fillMode = kCAFillModeForwards
+        shadowOffsetAnimation.isRemovedOnCompletion = false
+        shadowOffsetAnimation.timingFunction = CAMediaTimingFunction(name: "easeOut")
+        layer.add(shadowOffsetAnimation, forKey: "shadowOffset")
+        
+        let scaleAnimation = CABasicAnimation(keyPath: "transform")
+        scaleAnimation.toValue = NSValue(caTransform3D: targetScaleTransform)
+        scaleAnimation.duration = animationDuration
+        scaleAnimation.isRemovedOnCompletion = false
+        scaleAnimation.fillMode = kCAFillModeForwards
+        scaleAnimation.timingFunction = CAMediaTimingFunction(name: "easeOut")
+        layer.add(scaleAnimation, forKey: "scaleAnimation")
+        
+        CATransaction.commit()
+        UIView.animate(withDuration: animationDuration, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: { () -> Void in
+            self.transform = CGAffineTransform.identity
+            
+        }, completion:nil)
     }
 }
