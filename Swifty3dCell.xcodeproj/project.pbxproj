@@ -15,7 +15,6 @@
 		FD65604E1F459AE100111951 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
 		FD65604F1F459AE100111951 /* Swifty3dCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD70327D1F46D962006F9319 /* FloatPointExt.swift */; };
-		OBJ_21 /* Swifty3dCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Swifty3dCell.swift */; };
 		OBJ_22 /* Swifty3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Swifty3DView.swift */; };
 		OBJ_29 /* Swifty3dCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3dCellTests.swift */; };
 		OBJ_31 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
@@ -65,7 +64,6 @@
 		OBJ_14 /* Swifty3dCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifty3dCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* Swifty3dCellTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swifty3dCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* Swifty3dCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3dCell.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Swifty3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3DView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,7 +148,6 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* Swifty3dCell.swift */,
 				OBJ_9 /* Swifty3DView.swift */,
 				FD70327D1F46D962006F9319 /* FloatPointExt.swift */,
 			);
@@ -274,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_21 /* Swifty3dCell.swift in Sources */,
 				FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */,
 				OBJ_22 /* Swifty3DView.swift in Sources */,
 			);
