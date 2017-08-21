@@ -1,16 +1,15 @@
 //
-//  Swifty3DView.swift
-//  
+//  Swifty3DImageView.swift
+//  Swifty3dCell
 //
-//  Created by Minh Luan Tran on 8/16/17.
+//  Created by luan on 8/21/17.
 //
 //
 
-import Foundation
 import UIKit
 
-public class Swifty3DView: UIView {
-    
+class Swifty3DImageView: UIImageView {
+
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
