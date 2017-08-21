@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3DA71F1F4B23E600B1B178 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA71E1F4B23E600B1B178 /* UIView.swift */; };
 		FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6560381F459A8A00111951 /* AppDelegate.swift */; };
 		FD65603B1F459A8A00111951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65603A1F459A8A00111951 /* ViewController.swift */; };
 		FD65603E1F459A8A00111951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD65603C1F459A8A00111951 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F3DA71E1F4B23E600B1B178 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3dCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6560381F459A8A00111951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD65603A1F459A8A00111951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				OBJ_9 /* Swifty3DView.swift */,
 				FD70327D1F46D962006F9319 /* FloatPointExt.swift */,
+				0F3DA71E1F4B23E600B1B178 /* UIView.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -272,6 +275,7 @@
 			buildActionMask = 0;
 			files = (
 				FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */,
+				0F3DA71F1F4B23E600B1B178 /* UIView.swift in Sources */,
 				OBJ_22 /* Swifty3DView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
