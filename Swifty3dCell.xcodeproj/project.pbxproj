@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F3DA71F1F4B23E600B1B178 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA71E1F4B23E600B1B178 /* UIView.swift */; };
 		0F3DA7211F4B24DF00B1B178 /* Swifty3DAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */; };
+		0F3DA7231F4B26AB00B1B178 /* Swifty3DImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */; };
 		FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6560381F459A8A00111951 /* AppDelegate.swift */; };
 		FD65603B1F459A8A00111951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65603A1F459A8A00111951 /* ViewController.swift */; };
 		FD65603E1F459A8A00111951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD65603C1F459A8A00111951 /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 /* Begin PBXFileReference section */
 		0F3DA71E1F4B23E600B1B178 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DAnimation.swift; sourceTree = "<group>"; };
+		0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DImageView.swift; sourceTree = "<group>"; };
 		FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3dCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6560381F459A8A00111951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD65603A1F459A8A00111951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* Swifty3DView.swift */,
+				0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */,
 				FD70327D1F46D962006F9319 /* FloatPointExt.swift */,
 				0F3DA71E1F4B23E600B1B178 /* UIView.swift */,
 				0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */,
@@ -281,6 +284,7 @@
 				0F3DA71F1F4B23E600B1B178 /* UIView.swift in Sources */,
 				OBJ_22 /* Swifty3DView.swift in Sources */,
 				0F3DA7211F4B24DF00B1B178 /* Swifty3DAnimation.swift in Sources */,
+				0F3DA7231F4B26AB00B1B178 /* Swifty3DImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
