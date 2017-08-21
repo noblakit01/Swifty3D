@@ -39,26 +39,4 @@ public class Swifty3DView: UIView {
         
         stopMoving()
     }
-    
-    var shadowFactor: CGFloat {
-        get {
-            return 10.0
-        }
-    }
-    
-    var animationDuration: CFTimeInterval {
-        return 0.4
-    }
-    
-    let highlightedScale: CGFloat = 1.22
-    
-    let rotateXFactor: CGFloat = 12
-    
-    let rotateYFactor: CGFloat = 14
-    
-    let rotateZFactor: CGFloat = 9
-    
-    let maxTranslationX: CGFloat = 3.5
-    
-    let maxTranslationY: CGFloat = 2.5
 }

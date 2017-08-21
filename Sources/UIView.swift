@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+extension UIView: Swifty3DAnimation {
     func startMoving() {
         let targetShadowOffset = CGSize(width: 0.0, height: bounds.size.height / shadowFactor)
         layer.removeAllAnimations()
