@@ -11,6 +11,7 @@
 		0F3DA7211F4B24DF00B1B178 /* Swifty3DAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */; };
 		0F3DA7231F4B26AB00B1B178 /* Swifty3DImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */; };
 		0F7FC7AF1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */; };
+		0F7FC7B11F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */; };
 		FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6560381F459A8A00111951 /* AppDelegate.swift */; };
 		FD65603B1F459A8A00111951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65603A1F459A8A00111951 /* ViewController.swift */; };
 		FD65603E1F459A8A00111951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD65603C1F459A8A00111951 /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DAnimation.swift; sourceTree = "<group>"; };
 		0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DImageView.swift; sourceTree = "<group>"; };
 		0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DTableViewCell.swift; sourceTree = "<group>"; };
+		0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DCollectionViewCell.swift; sourceTree = "<group>"; };
 		FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3dCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6560381F459A8A00111951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD65603A1F459A8A00111951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				0F3DA71E1F4B23E600B1B178 /* UIView.swift */,
 				0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */,
 				0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */,
+				0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -289,6 +292,7 @@
 				OBJ_22 /* Swifty3DView.swift in Sources */,
 				0F3DA7211F4B24DF00B1B178 /* Swifty3DAnimation.swift in Sources */,
 				0F3DA7231F4B26AB00B1B178 /* Swifty3DImageView.swift in Sources */,
+				0F7FC7B11F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
