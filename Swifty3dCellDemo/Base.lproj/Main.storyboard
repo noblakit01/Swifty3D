@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="c0U-sE-T6j">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,73 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="inv-Hk-sb0">
+            <objects>
+                <viewController id="c0U-sE-T6j" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CZN-d1-PbX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z8t-Ly-eoE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jsB-Ke-5Bh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRv-aV-dVe">
+                                <rect key="frame" x="164" y="73" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="45t-L4-FUA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9B-8s-eYB">
+                                <rect key="frame" x="150" y="136" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ImageView"/>
+                                <connections>
+                                    <segue destination="MDv-va-zSp" kind="show" id="uhL-RT-TPb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U2o-D8-aB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-721" y="123"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pb7-PZ-2Vv">
+            <objects>
+                <viewController id="MDv-va-zSp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bJC-YM-IKU"/>
+                        <viewControllerLayoutGuide type="bottom" id="JIc-JL-2dt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gCK-IJ-70E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="ATK-ud-XVA" customClass="Swifty3DImageView" customModule="Swifty3dCell">
+                                <rect key="frame" x="47" y="243" width="280" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="DcF-aa-jeO"/>
+                                    <constraint firstAttribute="width" constant="280" id="FRr-Ok-Zeb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ATK-ud-XVA" firstAttribute="centerY" secondItem="gCK-IJ-70E" secondAttribute="centerY" id="U89-pn-HLE"/>
+                            <constraint firstItem="ATK-ud-XVA" firstAttribute="centerX" secondItem="gCK-IJ-70E" secondAttribute="centerX" id="okB-lC-9lb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zcN-VQ-Lr8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="123"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -21,11 +88,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="s1r-wN-fEd" customClass="Swifty3DImageView" customModule="Swifty3dCell">
-                                <rect key="frame" x="80" y="260" width="215" height="167"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-iw-z7B" customClass="Swifty3DView" customModule="Swifty3dCell">
-                                <rect key="frame" x="67" y="93" width="240" height="128"/>
+                                <rect key="frame" x="42" y="44" width="291" height="128"/>
                                 <color key="backgroundColor" red="0.14901960780000001" green="0.68235294120000001" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="XpC-hJ-5Gs"/>
@@ -34,18 +98,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="aAH-iw-z7B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="73" id="1en-AY-CUx"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s1r-wN-fEd" secondAttribute="bottom" constant="240" id="FLC-AJ-1Mh"/>
-                            <constraint firstItem="s1r-wN-fEd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="HFo-7c-mhX"/>
-                            <constraint firstAttribute="trailing" secondItem="aAH-iw-z7B" secondAttribute="trailing" constant="68" id="VKf-Ky-uvX"/>
-                            <constraint firstItem="s1r-wN-fEd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="240" id="d5C-Lk-xUq"/>
-                            <constraint firstAttribute="trailing" secondItem="s1r-wN-fEd" secondAttribute="trailing" constant="80" id="e9A-NU-ikr"/>
-                            <constraint firstItem="aAH-iw-z7B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="67" id="tpd-eS-LEb"/>
+                            <constraint firstItem="aAH-iw-z7B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="1en-AY-CUx"/>
+                            <constraint firstAttribute="trailing" secondItem="aAH-iw-z7B" secondAttribute="trailing" constant="42" id="VKf-Ky-uvX"/>
+                            <constraint firstItem="aAH-iw-z7B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="tpd-eS-LEb"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="154" y="-556"/>
         </scene>
     </scenes>
     <resources>
