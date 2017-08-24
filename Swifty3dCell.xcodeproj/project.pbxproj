@@ -20,6 +20,8 @@
 		FD65604E1F459AE100111951 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
 		FD65604F1F459AE100111951 /* Swifty3dCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD70327D1F46D962006F9319 /* FloatPointExt.swift */; };
+		FD7851F51F4ECAC6001726E5 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7851F41F4ECAC6001726E5 /* DemoTableViewCell.swift */; };
+		FD7851F71F4ECC3A001726E5 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */; };
 		OBJ_22 /* Swifty3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Swifty3DView.swift */; };
 		OBJ_29 /* Swifty3dCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3dCellTests.swift */; };
 		OBJ_31 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
@@ -70,6 +72,8 @@
 		FD6560421F459A8A00111951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6560441F459A8A00111951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD70327D1F46D962006F9319 /* FloatPointExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatPointExt.swift; sourceTree = "<group>"; };
+		FD7851F41F4ECAC6001726E5 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Swifty3dCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3dCellTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Swifty3dCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifty3dCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* Swifty3dCellTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swifty3dCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +117,8 @@
 				FD65603F1F459A8A00111951 /* Assets.xcassets */,
 				FD6560411F459A8A00111951 /* LaunchScreen.storyboard */,
 				FD6560441F459A8A00111951 /* Info.plist */,
+				FD7851F41F4ECAC6001726E5 /* DemoTableViewCell.swift */,
+				FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */,
 			);
 			path = Swifty3dCellDemo;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7851F71F4ECC3A001726E5 /* DemoTableViewController.swift in Sources */,
+				FD7851F51F4ECAC6001726E5 /* DemoTableViewCell.swift in Sources */,
 				FD65603B1F459A8A00111951 /* ViewController.swift in Sources */,
 				FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */,
 			);
