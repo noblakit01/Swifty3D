@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Swifty3dCell
 
 class DemoCollectionViewController: UIViewController {
     
@@ -41,6 +42,6 @@ extension DemoCollectionViewController: UICollectionViewDataSource {
     }
 }
 
-class DemoCollectionCell: UICollectionViewCell {
+class DemoCollectionCell: Swifty3DCollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
 }
