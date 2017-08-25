@@ -10,6 +10,7 @@
 		0F3DA71F1F4B23E600B1B178 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA71E1F4B23E600B1B178 /* UIView.swift */; };
 		0F3DA7211F4B24DF00B1B178 /* Swifty3DAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */; };
 		0F3DA7231F4B26AB00B1B178 /* Swifty3DImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */; };
+		0F4102EF1F4FB46400EA9F88 /* DemoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4102EE1F4FB46400EA9F88 /* DemoCollectionViewController.swift */; };
 		0F7FC7AF1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */; };
 		0F7FC7B11F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */; };
 		FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6560381F459A8A00111951 /* AppDelegate.swift */; };
@@ -62,6 +63,7 @@
 		0F3DA71E1F4B23E600B1B178 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DAnimation.swift; sourceTree = "<group>"; };
 		0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DImageView.swift; sourceTree = "<group>"; };
+		0F4102EE1F4FB46400EA9F88 /* DemoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewController.swift; sourceTree = "<group>"; };
 		0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DTableViewCell.swift; sourceTree = "<group>"; };
 		0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DCollectionViewCell.swift; sourceTree = "<group>"; };
 		FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3dCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				FD6560441F459A8A00111951 /* Info.plist */,
 				FD7851F41F4ECAC6001726E5 /* DemoTableViewCell.swift */,
 				FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */,
+				0F4102EE1F4FB46400EA9F88 /* DemoCollectionViewController.swift */,
 			);
 			path = Swifty3dCellDemo;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				FD7851F71F4ECC3A001726E5 /* DemoTableViewController.swift in Sources */,
 				FD7851F51F4ECAC6001726E5 /* DemoTableViewCell.swift in Sources */,
+				0F4102EF1F4FB46400EA9F88 /* DemoCollectionViewController.swift in Sources */,
 				FD65603B1F459A8A00111951 /* ViewController.swift in Sources */,
 				FD6560391F459A8A00111951 /* AppDelegate.swift in Sources */,
 			);

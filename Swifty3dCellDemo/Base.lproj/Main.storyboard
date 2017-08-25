@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="1092" y="122.78860569715144"/>
         </scene>
-        <!--View Controller-->
+        <!--Demo Collection View Controller-->
         <scene sceneID="Aqx-pH-XfK">
             <objects>
-                <viewController id="R2q-Ab-dnO" sceneMemberID="viewController">
+                <viewController id="R2q-Ab-dnO" customClass="DemoCollectionViewController" customModule="Swifty3dCellDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GSo-kh-V9D"/>
                         <viewControllerLayoutGuide type="bottom" id="HnK-5K-WkG"/>
@@ -110,8 +110,56 @@
                     <view key="view" contentMode="scaleToFill" id="Ttg-TW-QzO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="9RS-46-HOY">
+                                <rect key="frame" x="10" y="74" width="355" height="593"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8H9-k2-mkM">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="B9d-Zh-jZB" customClass="DemoCollectionCell" customModule="Swifty3dCellDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e4h-Dq-vhC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="e4h-Dq-vhC" secondAttribute="trailing" id="cuX-pf-fG1"/>
+                                            <constraint firstAttribute="bottom" secondItem="e4h-Dq-vhC" secondAttribute="bottom" id="ftp-UD-DSJ"/>
+                                            <constraint firstItem="e4h-Dq-vhC" firstAttribute="leading" secondItem="B9d-Zh-jZB" secondAttribute="leading" id="lD5-DW-3Mt"/>
+                                            <constraint firstItem="e4h-Dq-vhC" firstAttribute="top" secondItem="B9d-Zh-jZB" secondAttribute="top" id="wtR-l6-9m2"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="e4h-Dq-vhC" id="DdA-yi-Ti3"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="R2q-Ab-dnO" id="0cr-bJ-3QU"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HnK-5K-WkG" firstAttribute="top" secondItem="9RS-46-HOY" secondAttribute="bottom" id="9Ok-Xa-Va7"/>
+                            <constraint firstItem="9RS-46-HOY" firstAttribute="top" secondItem="GSo-kh-V9D" secondAttribute="bottom" constant="10" id="SIt-17-Fqu"/>
+                            <constraint firstItem="9RS-46-HOY" firstAttribute="leading" secondItem="Ttg-TW-QzO" secondAttribute="leading" constant="10" id="iKz-wv-gRr"/>
+                            <constraint firstAttribute="trailing" secondItem="9RS-46-HOY" secondAttribute="trailing" constant="10" id="q0r-oQ-OyN"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="9RS-46-HOY" id="AWz-Do-HiX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kKL-95-T8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
