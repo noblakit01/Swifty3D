@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B7c-PL-OR9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B7c-PL-OR9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -42,14 +42,23 @@
                                     <segue destination="bBH-Ec-of4" kind="show" id="Qg3-Eo-mtb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLu-5w-JZu">
+                                <rect key="frame" x="137" y="250" width="101" height="30"/>
+                                <state key="normal" title="CollectionView"/>
+                                <connections>
+                                    <segue destination="R2q-Ab-dnO" kind="show" id="5jQ-jd-4kC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bRv-aV-dVe" firstAttribute="centerX" secondItem="jsB-Ke-5Bh" secondAttribute="centerX" id="3B4-Nl-3ge"/>
+                            <constraint firstItem="aLu-5w-JZu" firstAttribute="centerX" secondItem="jsB-Ke-5Bh" secondAttribute="centerX" id="7t1-uy-lVK"/>
                             <constraint firstItem="bRv-aV-dVe" firstAttribute="top" secondItem="CZN-d1-PbX" secondAttribute="bottom" constant="24" id="AXT-du-tdZ"/>
                             <constraint firstItem="C9B-8s-eYB" firstAttribute="top" secondItem="bRv-aV-dVe" secondAttribute="bottom" constant="24" id="dlG-2R-aiL"/>
                             <constraint firstItem="C9B-8s-eYB" firstAttribute="centerX" secondItem="jsB-Ke-5Bh" secondAttribute="centerX" id="hXc-pa-cC1"/>
                             <constraint firstItem="au1-E4-NSa" firstAttribute="centerX" secondItem="jsB-Ke-5Bh" secondAttribute="centerX" id="rAc-Xs-Kyr"/>
+                            <constraint firstItem="aLu-5w-JZu" firstAttribute="top" secondItem="au1-E4-NSa" secondAttribute="bottom" constant="24" id="s8Q-q6-gl3"/>
                             <constraint firstItem="au1-E4-NSa" firstAttribute="top" secondItem="C9B-8s-eYB" secondAttribute="bottom" constant="24" id="zTP-mA-FUJ"/>
                         </constraints>
                     </view>
@@ -89,6 +98,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcN-VQ-Lr8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1092" y="122.78860569715144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Aqx-pH-XfK">
+            <objects>
+                <viewController id="R2q-Ab-dnO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GSo-kh-V9D"/>
+                        <viewControllerLayoutGuide type="bottom" id="HnK-5K-WkG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ttg-TW-QzO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kKL-95-T8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="217" y="886"/>
         </scene>
         <!--Demo Table View Controller-->
         <scene sceneID="coX-bN-ZI9">
@@ -146,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFZ-cc-fct" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1092" y="843"/>
+            <point key="canvasLocation" x="1092" y="886"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
