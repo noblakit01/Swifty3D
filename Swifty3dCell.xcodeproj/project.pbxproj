@@ -167,11 +167,11 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Swifty3DView.swift */,
-				0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */,
-				FD70327D1F46D962006F9319 /* FloatPointExt.swift */,
 				0F3DA71E1F4B23E600B1B178 /* UIView.swift */,
 				0F3DA7201F4B24DF00B1B178 /* Swifty3DAnimation.swift */,
+				FD70327D1F46D962006F9319 /* FloatPointExt.swift */,
+				OBJ_9 /* Swifty3DView.swift */,
+				0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */,
 				0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */,
 				0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */,
 			);
