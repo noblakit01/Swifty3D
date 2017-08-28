@@ -38,7 +38,7 @@ extension Swifty3DAnimation {
     }
     
     var highlightedScale: CGFloat {
-        return 1.22
+        return 1.0
     }
     
     var rotateXFactor: CGFloat {
