@@ -23,6 +23,7 @@
 		FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD70327D1F46D962006F9319 /* FloatPointExt.swift */; };
 		FD7851F51F4ECAC6001726E5 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7851F41F4ECAC6001726E5 /* DemoTableViewCell.swift */; };
 		FD7851F71F4ECC3A001726E5 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */; };
+		FDF237FB1F84E55400534BFE /* Swifty3dButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF237FA1F84E55400534BFE /* Swifty3dButton.swift */; };
 		OBJ_22 /* Swifty3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Swifty3DView.swift */; };
 		OBJ_29 /* Swifty3dCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3dCellTests.swift */; };
 		OBJ_31 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
@@ -76,6 +77,7 @@
 		FD70327D1F46D962006F9319 /* FloatPointExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatPointExt.swift; sourceTree = "<group>"; };
 		FD7851F41F4ECAC6001726E5 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		FDF237FA1F84E55400534BFE /* Swifty3dButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3dButton.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Swifty3dCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3dCellTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Swifty3dCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifty3dCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* Swifty3dCellTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swifty3dCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 				0F3DA7221F4B26AB00B1B178 /* Swifty3DImageView.swift */,
 				0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */,
 				0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */,
+				FDF237FA1F84E55400534BFE /* Swifty3dButton.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				FDF237FB1F84E55400534BFE /* Swifty3dButton.swift in Sources */,
 				0F7FC7AF1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift in Sources */,
 				FD70327E1F46D962006F9319 /* FloatPointExt.swift in Sources */,
 				0F3DA71F1F4B23E600B1B178 /* UIView.swift in Sources */,
