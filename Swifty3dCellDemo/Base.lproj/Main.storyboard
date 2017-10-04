@@ -120,13 +120,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96R-OU-N3E" customClass="Swifty3dButton" customModule="Swifty3dCell">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96R-OU-N3E" customClass="Swifty3dButton" customModule="Swifty3dCell">
                                 <rect key="frame" x="67" y="243.5" width="240" height="180"/>
+                                <color key="backgroundColor" red="0.14901960780000001" green="0.68235294120000001" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="5Mx-rz-hTB"/>
                                     <constraint firstAttribute="width" constant="240" id="ZDL-Gg-coH"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="dog"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
