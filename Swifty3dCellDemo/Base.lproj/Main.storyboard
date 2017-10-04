@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B7c-PL-OR9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B7c-PL-OR9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -49,6 +49,13 @@
                                     <segue destination="R2q-Ab-dnO" kind="show" id="5jQ-jd-4kC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeP-rK-YB3">
+                                <rect key="frame" x="164" y="304" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="GKP-rM-bFj" kind="show" id="B7S-eU-vXR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -59,6 +66,8 @@
                             <constraint firstItem="C9B-8s-eYB" firstAttribute="centerX" secondItem="jsB-Ke-5Bh" secondAttribute="centerX" id="hXc-pa-cC1"/>
                             <constraint firstItem="au1-E4-NSa" firstAttribute="centerX" secondItem="jsB-Ke-5Bh" secondAttribute="centerX" id="rAc-Xs-Kyr"/>
                             <constraint firstItem="aLu-5w-JZu" firstAttribute="top" secondItem="au1-E4-NSa" secondAttribute="bottom" constant="24" id="s8Q-q6-gl3"/>
+                            <constraint firstItem="FeP-rK-YB3" firstAttribute="top" secondItem="aLu-5w-JZu" secondAttribute="bottom" constant="24" id="tFs-55-Qgs"/>
+                            <constraint firstItem="FeP-rK-YB3" firstAttribute="centerX" secondItem="jsB-Ke-5Bh" secondAttribute="centerX" id="zSa-hc-3A8"/>
                             <constraint firstItem="au1-E4-NSa" firstAttribute="top" secondItem="C9B-8s-eYB" secondAttribute="bottom" constant="24" id="zTP-mA-FUJ"/>
                         </constraints>
                     </view>
@@ -98,6 +107,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcN-VQ-Lr8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1092" y="122.78860569715144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TlO-EC-El1">
+            <objects>
+                <viewController id="GKP-rM-bFj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ALD-A1-7Cu"/>
+                        <viewControllerLayoutGuide type="bottom" id="XBd-Xr-d81"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="41h-tb-HJI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96R-OU-N3E" customClass="Swifty3dButton" customModule="Swifty3dCell">
+                                <rect key="frame" x="67" y="243.5" width="240" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="5Mx-rz-hTB"/>
+                                    <constraint firstAttribute="width" constant="240" id="ZDL-Gg-coH"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="dog"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="96R-OU-N3E" firstAttribute="centerY" secondItem="41h-tb-HJI" secondAttribute="centerY" id="JqJ-x5-jvF"/>
+                            <constraint firstItem="96R-OU-N3E" firstAttribute="centerX" secondItem="41h-tb-HJI" secondAttribute="centerX" id="axg-nz-QYE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZp-xk-fKy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1976.8" y="122.78860569715144"/>
         </scene>
         <!--Demo Collection View Controller-->
         <scene sceneID="Aqx-pH-XfK">
