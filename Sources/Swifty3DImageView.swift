@@ -38,4 +38,5 @@ class Swifty3DImageView: UIImageView {
         
         stopMoving()
     }
+    
 }

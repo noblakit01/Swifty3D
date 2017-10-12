@@ -38,4 +38,5 @@ open class Swifty3DTableViewCell: UITableViewCell {
         
         stopMoving()
     }
+    
 }

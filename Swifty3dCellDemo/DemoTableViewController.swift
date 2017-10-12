@@ -23,9 +23,11 @@ class DemoTableViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
 }
 
 extension DemoTableViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return imageNames.count
     }
@@ -35,4 +37,5 @@ extension DemoTableViewController: UITableViewDataSource {
         cell.contentImageView.image = UIImage(named: imageNames[indexPath.row])
         return cell
     }
+    
 }

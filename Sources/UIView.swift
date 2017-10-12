@@ -9,13 +9,14 @@
 import UIKit
 
 extension UIView: Swifty3DAnimation {
+    
     func startMoving() {
         let targetShadowOffset = CGSize(width: 0.0, height: bounds.size.height / shadowFactor)
         layer.removeAllAnimations()
         CATransaction.begin()
-        CATransaction.setCompletionBlock({ () -> Void in
+        CATransaction.setCompletionBlock { () -> Void in
             self.layer.shadowOffset = targetShadowOffset
-        })
+        }
         let shadowOffsetAnimation = CABasicAnimation(keyPath: "shadowOffset")
         shadowOffsetAnimation.toValue = NSValue(cgSize: targetShadowOffset)
         shadowOffsetAnimation.duration = animationDuration
@@ -34,7 +35,7 @@ extension UIView: Swifty3DAnimation {
         CATransaction.commit()
     }
     
-    func moving(_ point: CGPoint){
+    func moving(_ point: CGPoint) {
         let offsetX = point.x / bounds.size.width
         let offsetY = point.y / bounds.size.height
         let dx = point.x - bounds.size.width / 2
@@ -70,10 +71,10 @@ extension UIView: Swifty3DAnimation {
         let targetScaleTransform = CATransform3DMakeScale(1.0, 1.0, 1.0)
         
         CATransaction.begin()
-        CATransaction.setCompletionBlock({ () -> Void in
+        CATransaction.setCompletionBlock { () -> Void in
             self.layer.transform = targetScaleTransform
             self.layer.shadowOffset = targetShadowOffset
-        })
+        }
         let shadowOffsetAnimation = CABasicAnimation(keyPath: "shadowOffset")
         shadowOffsetAnimation.toValue = NSValue(cgSize: targetShadowOffset)
         shadowOffsetAnimation.duration = animationDuration
@@ -104,5 +105,5 @@ extension UIView: Swifty3DAnimation {
             
         }, completion:nil)
     }
+    
 }
-
