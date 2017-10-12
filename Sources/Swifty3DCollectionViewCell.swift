@@ -9,6 +9,7 @@
 import UIKit
 
 open class Swifty3DCollectionViewCell: UICollectionViewCell {
+    
     override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
@@ -37,4 +38,5 @@ open class Swifty3DCollectionViewCell: UICollectionViewCell {
         
         stopMoving()
     }
+    
 }
