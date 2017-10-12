@@ -39,4 +39,5 @@ public class Swifty3DView: UIView {
         
         stopMoving()
     }
+    
 }

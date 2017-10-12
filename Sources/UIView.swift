@@ -71,10 +71,10 @@ extension UIView: Swifty3DAnimation {
         let targetScaleTransform = CATransform3DMakeScale(1.0, 1.0, 1.0)
         
         CATransaction.begin()
-        CATransaction.setCompletionBlock({ () -> Void in
+        CATransaction.setCompletionBlock { () -> Void in
             self.layer.transform = targetScaleTransform
             self.layer.shadowOffset = targetShadowOffset
-        })
+        }
         let shadowOffsetAnimation = CABasicAnimation(keyPath: "shadowOffset")
         shadowOffsetAnimation.toValue = NSValue(cgSize: targetShadowOffset)
         shadowOffsetAnimation.duration = animationDuration
