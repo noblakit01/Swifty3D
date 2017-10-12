@@ -42,6 +42,7 @@ extension DemoCollectionViewController: UICollectionViewDataSource {
         cell.imageView.image = UIImage(named: imageNames[indexPath.row])
         return cell
     }
+    
 }
 
 class DemoCollectionCell: Swifty3DCollectionViewCell {
