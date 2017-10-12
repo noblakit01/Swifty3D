@@ -28,9 +28,11 @@ class DemoCollectionViewController: UIViewController {
             layout.itemSize = CGSize(width: width / 3, height: width / 3)
         }
     }
+    
 }
 
 extension DemoCollectionViewController: UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imageNames.count
     }
