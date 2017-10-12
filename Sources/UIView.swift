@@ -9,6 +9,7 @@
 import UIKit
 
 extension UIView: Swifty3DAnimation {
+    
     func startMoving() {
         let targetShadowOffset = CGSize(width: 0.0, height: bounds.size.height / shadowFactor)
         layer.removeAllAnimations()
@@ -34,7 +35,7 @@ extension UIView: Swifty3DAnimation {
         CATransaction.commit()
     }
     
-    func moving(_ point: CGPoint){
+    func moving(_ point: CGPoint) {
         let offsetX = point.x / bounds.size.width
         let offsetY = point.y / bounds.size.height
         let dx = point.x - bounds.size.width / 2
@@ -104,5 +105,5 @@ extension UIView: Swifty3DAnimation {
             
         }, completion:nil)
     }
+    
 }
-

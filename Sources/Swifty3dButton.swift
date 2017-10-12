@@ -38,4 +38,5 @@ class Swifty3dButton: UIButton {
         
         stopMoving()
     }
+    
 }
