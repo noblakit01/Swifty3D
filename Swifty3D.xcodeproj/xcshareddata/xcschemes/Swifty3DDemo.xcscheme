@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD6560351F459A8A00111951"
-               BuildableName = "Swifty3dCellDemo.app"
-               BlueprintName = "Swifty3dCellDemo"
-               ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+               BuildableName = "Swifty3DDemo.app"
+               BlueprintName = "Swifty3DDemo"
+               ReferencedContainer = "container:Swifty3D.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD6560351F459A8A00111951"
-            BuildableName = "Swifty3dCellDemo.app"
-            BlueprintName = "Swifty3dCellDemo"
-            ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+            BuildableName = "Swifty3DDemo.app"
+            BlueprintName = "Swifty3DDemo"
+            ReferencedContainer = "container:Swifty3D.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD6560351F459A8A00111951"
-            BuildableName = "Swifty3dCellDemo.app"
-            BlueprintName = "Swifty3dCellDemo"
-            ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+            BuildableName = "Swifty3DDemo.app"
+            BlueprintName = "Swifty3DDemo"
+            ReferencedContainer = "container:Swifty3D.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD6560351F459A8A00111951"
-            BuildableName = "Swifty3dCellDemo.app"
-            BlueprintName = "Swifty3dCellDemo"
-            ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+            BuildableName = "Swifty3DDemo.app"
+            BlueprintName = "Swifty3DDemo"
+            ReferencedContainer = "container:Swifty3D.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -3,5 +3,5 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swifty3dCell"
+    name: "Swifty3D"
 )

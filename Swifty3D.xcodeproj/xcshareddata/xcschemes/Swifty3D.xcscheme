@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_16"
                BuildableName = "Swifty3dCell.framework"
-               BlueprintName = "Swifty3dCell"
-               ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+               BlueprintName = "Swifty3D"
+               ReferencedContainer = "container:Swifty3D.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_24"
-               BuildableName = "Swifty3dCellTests.xctest"
-               BlueprintName = "Swifty3dCellTests"
-               ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+               BuildableName = "Swifty3DTests.xctest"
+               BlueprintName = "Swifty3DTests"
+               ReferencedContainer = "container:Swifty3D.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,8 +59,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "OBJ_16"
             BuildableName = "Swifty3dCell.framework"
-            BlueprintName = "Swifty3dCell"
-            ReferencedContainer = "container:Swifty3dCell.xcodeproj">
+            BlueprintName = "Swifty3D"
+            ReferencedContainer = "container:Swifty3D.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
