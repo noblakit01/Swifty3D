@@ -34,7 +34,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_24"
-               BuildableName = "Swifty3dCellTests.xctest"
+               BuildableName = "Swifty3DTests.xctest"
                BlueprintName = "Swifty3DTests"
                ReferencedContainer = "container:Swifty3D.xcodeproj">
             </BuildableReference>

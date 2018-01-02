@@ -125,7 +125,8 @@
 				FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */,
 				0F4102EE1F4FB46400EA9F88 /* DemoCollectionViewController.swift */,
 			);
-			path = Swifty3dCellDemo;
+			name = Swifty3dCellDemo;
+			path = Swifty3DDemo;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
