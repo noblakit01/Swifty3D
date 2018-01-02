@@ -25,7 +25,7 @@
 		FD7851F71F4ECC3A001726E5 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */; };
 		FDF237FB1F84E55400534BFE /* Swifty3dButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF237FA1F84E55400534BFE /* Swifty3dButton.swift */; };
 		OBJ_22 /* Swifty3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Swifty3DView.swift */; };
-		OBJ_29 /* Swifty3dCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3dCellTests.swift */; };
+		OBJ_29 /* Swifty3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Swifty3DTests.swift */; };
 		OBJ_31 /* Swifty3dCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Swifty3dCell.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,7 +78,7 @@
 		FD7851F41F4ECAC6001726E5 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
 		FDF237FA1F84E55400534BFE /* Swifty3dButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3dButton.swift; sourceTree = "<group>"; };
-		OBJ_12 /* Swifty3dCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3dCellTests.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Swifty3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3DTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Swifty3dCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifty3dCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* Swifty3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Swifty3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD6560371F459A8A00111951 /* Swifty3dCellDemo */ = {
+		FD6560371F459A8A00111951 /* Swifty3DDemo */ = {
 			isa = PBXGroup;
 			children = (
 				FD6560381F459A8A00111951 /* AppDelegate.swift */,
@@ -125,25 +125,24 @@
 				FD7851F61F4ECC3A001726E5 /* DemoTableViewController.swift */,
 				0F4102EE1F4FB46400EA9F88 /* DemoCollectionViewController.swift */,
 			);
-			name = Swifty3dCellDemo;
 			path = Swifty3DDemo;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* Swifty3dCellTests */,
+				OBJ_11 /* Swifty3DTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_11 /* Swifty3dCellTests */ = {
+		OBJ_11 /* Swifty3DTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* Swifty3dCellTests.swift */,
+				OBJ_12 /* Swifty3DTests.swift */,
 			);
-			name = Swifty3dCellTests;
-			path = Tests/Swifty3dCellTests;
+			name = Swifty3DTests;
+			path = Tests/Swifty3DTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_13 /* Products */ = {
@@ -154,6 +153,7 @@
 				FD6560361F459A8A00111951 /* Swifty3DDemo.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		OBJ_5 = {
@@ -162,7 +162,7 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
-				FD6560371F459A8A00111951 /* Swifty3dCellDemo */,
+				FD6560371F459A8A00111951 /* Swifty3DDemo */,
 				OBJ_13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -323,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_29 /* Swifty3dCellTests.swift in Sources */,
+				OBJ_29 /* Swifty3DTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
