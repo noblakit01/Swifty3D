@@ -67,7 +67,7 @@
 		0F4102EE1F4FB46400EA9F88 /* DemoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewController.swift; sourceTree = "<group>"; };
 		0F7FC7AE1F4C83DE002B2C7B /* Swifty3DTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DTableViewCell.swift; sourceTree = "<group>"; };
 		0F7FC7B01F4C842E002B2C7B /* Swifty3DCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3DCollectionViewCell.swift; sourceTree = "<group>"; };
-		FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3dCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6560361F459A8A00111951 /* Swifty3DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifty3DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6560381F459A8A00111951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD65603A1F459A8A00111951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD65603D1F459A8A00111951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		FDF237FA1F84E55400534BFE /* Swifty3dButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifty3dButton.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Swifty3dCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3dCellTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Swifty3dCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swifty3dCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_15 /* Swifty3dCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Swifty3dCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_15 /* Swifty3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Swifty3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Swifty3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty3DView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_14 /* Swifty3dCell.framework */,
-				OBJ_15 /* Swifty3dCellTests.xctest */,
-				FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */,
+				OBJ_15 /* Swifty3DTests.xctest */,
+				FD6560361F459A8A00111951 /* Swifty3DDemo.app */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD6560351F459A8A00111951 /* Swifty3dCellDemo */ = {
+		FD6560351F459A8A00111951 /* Swifty3DDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD6560471F459A8A00111951 /* Build configuration list for PBXNativeTarget "Swifty3dCellDemo" */;
+			buildConfigurationList = FD6560471F459A8A00111951 /* Build configuration list for PBXNativeTarget "Swifty3DDemo" */;
 			buildPhases = (
 				FD6560321F459A8A00111951 /* Sources */,
 				FD6560331F459A8A00111951 /* Frameworks */,
@@ -198,14 +198,14 @@
 			dependencies = (
 				FD6560511F459AE100111951 /* PBXTargetDependency */,
 			);
-			name = Swifty3dCellDemo;
+			name = Swifty3DDemo;
 			productName = Swifty3dCellDemo;
-			productReference = FD6560361F459A8A00111951 /* Swifty3dCellDemo.app */;
+			productReference = FD6560361F459A8A00111951 /* Swifty3DDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		OBJ_16 /* Swifty3dCell */ = {
+		OBJ_16 /* Swifty3D */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "Swifty3dCell" */;
+			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "Swifty3D" */;
 			buildPhases = (
 				OBJ_20 /* Sources */,
 				OBJ_23 /* Frameworks */,
@@ -214,14 +214,14 @@
 			);
 			dependencies = (
 			);
-			name = Swifty3dCell;
+			name = Swifty3D;
 			productName = Swifty3dCell;
 			productReference = OBJ_14 /* Swifty3dCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_24 /* Swifty3dCellTests */ = {
+		OBJ_24 /* Swifty3DTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "Swifty3dCellTests" */;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "Swifty3DTests" */;
 			buildPhases = (
 				OBJ_28 /* Sources */,
 				OBJ_30 /* Frameworks */,
@@ -231,9 +231,9 @@
 			dependencies = (
 				OBJ_32 /* PBXTargetDependency */,
 			);
-			name = Swifty3dCellTests;
+			name = Swifty3DTests;
 			productName = Swifty3dCellTests;
-			productReference = OBJ_15 /* Swifty3dCellTests.xctest */;
+			productReference = OBJ_15 /* Swifty3DTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Swifty3dCell" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Swifty3D" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -270,9 +270,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_16 /* Swifty3dCell */,
-				OBJ_24 /* Swifty3dCellTests */,
-				FD6560351F459A8A00111951 /* Swifty3dCellDemo */,
+				OBJ_16 /* Swifty3D */,
+				OBJ_24 /* Swifty3DTests */,
+				FD6560351F459A8A00111951 /* Swifty3DDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -331,12 +331,12 @@
 /* Begin PBXTargetDependency section */
 		FD6560511F459AE100111951 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_16 /* Swifty3dCell */;
+			target = OBJ_16 /* Swifty3D */;
 			targetProxy = FD6560501F459AE100111951 /* PBXContainerItemProxy */;
 		};
 		OBJ_32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_16 /* Swifty3dCell */;
+			target = OBJ_16 /* Swifty3D */;
 			targetProxy = FD195B7B1F4407FA005E17D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -520,6 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = Swifty3DTests;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Swifty3dCellTests;
@@ -539,6 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = Swifty3DTests;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Swifty3dCellTests;
@@ -639,7 +641,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD6560471F459A8A00111951 /* Build configuration list for PBXNativeTarget "Swifty3dCellDemo" */ = {
+		FD6560471F459A8A00111951 /* Build configuration list for PBXNativeTarget "Swifty3DDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD6560451F459A8A00111951 /* Debug */,
@@ -648,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_17 /* Build configuration list for PBXNativeTarget "Swifty3dCell" */ = {
+		OBJ_17 /* Build configuration list for PBXNativeTarget "Swifty3D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_18 /* Debug */,
@@ -657,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "Swifty3dCell" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Swifty3D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
@@ -666,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_25 /* Build configuration list for PBXNativeTarget "Swifty3dCellTests" */ = {
+		OBJ_25 /* Build configuration list for PBXNativeTarget "Swifty3DTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_26 /* Debug */,
